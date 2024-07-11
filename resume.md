@@ -46,8 +46,9 @@ Currently, I am part of the Data Platform organization at Apple, focusing on add
 - **Designed and Implemented a Retention Service for Data Governance:** Led an organization-wide initiative to implement data retention policies for HDFS tables and volumes. My role involved designing a comprehensive solution that not only met our data governance requirements but also provided scalable, reliable data management capabilities. This project was pivotal in enhancing our data lifecycle management and ensuring compliance with evolving data protection standards.
 
 ### Staff Software Engineer, Meta
-At Meta, I took the lead as a backend developer in the Messenger organization, focusing particularly on Identity and enhancing how users interact within communities. My role involved steering projects that not only improved the functionality of Messenger but also safeguarded its users. Below are some highlights of my contributions:
 *Jun 2021 – Nov 2022, Bellevue, WA*
+
+At Meta, I took the lead as a backend developer in the Messenger organization, focusing particularly on Identity and enhancing how users interact within communities. My role involved steering projects that not only improved the functionality of Messenger but also safeguarded its users. Below are some highlights of my contributions:
 
 - **Single Owner Additional Profile:** I led the design and implementation of the Single Owner Additional Profile feature in Messenger, which enables users to create multiple profiles under one account, tailored for diverse community interactions. This feature was designed with robust safeguards to prevent misuse. such as limits on the number of profiles one user can create, thereby preventing spam and undue influence within communities. These measures ensure a safe, engaging, and versatile user experience, enhancing both user engagement and community integrity.
 
