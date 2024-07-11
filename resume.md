@@ -4,6 +4,9 @@
 <meta name="author" content="Rohit Chauhan">
 <!-- End HTML Meta Tags -->
 <div align="center">
+    <h1>Rohit Chauhan</h1>
+</div>
+<div align="center">
     <h6>🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6>
 </div>
 
@@ -55,9 +58,9 @@ At Meta, I took the lead as a backend developer in the Messenger organization, f
 *May 2015 – May 2021, Seattle, WA*
 
 At Twitter, I started with Development Productivity team, focusing on refining development tools and enhancing operational efficiencies. My contributions spanned from improving software packaging to optimizing data tracing systems. After transitioning to the Observability team, I played a key role in designing and implementing our Time Series Database, subsequently developing various features to enhance its functionality and ensure robust observability across the company’s technical infrastructure.
-- Developed role aggregation service and observability database indexing.
-- Ported Zipkin for in-house datastore usage and designed CI metadata service.
-
+- **Zipkin:** I worked on porting open source zipkin project to in house where we can use it as a distributed tracing tool. I made modifications to make sure that its compatible with our tech stack and added reliability metrics and alerts making it a resilient service.
+- **Observability Indexing service:** I designed and implemented the indexing service that keeps metadata details of metric and provide REST endpoints to support rich query language for telemetry.
+- **Observability aggregations:** I worked on supporting both role based and time based aggregation of metrics data in TSDB. This was crucial to support long range metric queries as well as protect the database from filling up by only coarse grained metric data after a certain time period.
 ### Software Development Engineer, AWS
 *March 2013 – May 2015*
 - Implemented Real-time aggregator and metering services for EBS customers.
