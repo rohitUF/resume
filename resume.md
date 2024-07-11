@@ -3,10 +3,10 @@
 <meta name="keywords" content="Java, Scala, Python, JavaScript">
 <meta name="author" content="Rohit Chauhan">
 <!-- End HTML Meta Tags -->
-<div align="center">
+<div style="text-align: center;">
     <h1>Rohit Chauhan</h1>
 </div>
-<div align="center">
+<div style="text-align: center;">
     <h6>🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6>
 </div>
 
