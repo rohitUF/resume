@@ -1,157 +1,89 @@
----
-margin-left: 2cm
-margin-right: 2cm
-margin-top: 1cm
-margin-bottom: 2cm
-title: Rohit Chauhan
-description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
-keywords:
-  - 'php'
-  - 'mysql'
-  - 'linux'
-author:
-- I am the author
-subject: 'Subject'
----
-###### [[example.com](https://example.com)] . [ me@example.com] . [ 123 456 7890 ]
+<!-- HTML Meta Tags -->
+<meta name="description" content="Rohit Chauhan resume">
+<meta name="keywords" content="Java, Scala, Python, JavaScript">
+<meta name="author" content="Rohit Chauhan">
+<!-- End HTML Meta Tags -->
+<div align="center">
+    <h6>🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6>
+</div>
 
-### This is where you have your statement, that describes who you are and what you're looking for. Hopefully it's not cliche and it stands out in a good way
 
-## Skills
-
-```programming```
-```devops```
-```databases```
-```containers```
-```linux systems administration```
-```webservers```
-```project management```
-```system architecture & design```
-```entrepreneurship```
-```load/stress testing```
-```WordPress```
-
-**Programming**: Lua, Haskell, Erlang, Go, Javascript
-**Databases**: MySQL, Postgres, sqlite, SQL Server, Oracle, Pick
-**Linux**: Gentoo, Alpine, CentOS, Ubuntu, Debian
-**DevOps**: Ansible, Chef, Kubernetes, etc.
-
-## Experience
-
-### CEO and Founder, Pied Piper
-
-start-date-end-date, City, State and remote
----
-margin-left: 2cm
-margin-right: 2cm
-margin-top: 1cm
-margin-bottom: 2cm
-title: Rohit Chauhan
-description-meta: 'This is the meta description for the HTML file, and one day the PDF file, for better SEO?'
-keywords:
-  - 'Java'
-  - 'Scala'
-  - 'Python'
-  - 'JavaScript'
-author:
-  - Rohit Chauhan
-subject: 'Software Engineering Resume'
----
-###### [Linkedin.com/in/chauhanr](https://linkedin.com/in/chauhanr) . [ rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) . [ (352) 871-6277 ]
 
 ### Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.
 
 ## Skills
 
+```Distributed systems```
+```Scala```
+```Data platform```
+```Data governance```
+```system architecture & design```
+```Java```
+```Hack/PHP```
+
 **Programming Languages**: Java, Scala, Python, JavaScript, C++ Boost, Node.js  
 **Databases**: SQL Server, Cassandra, DynamoDB  
 **Frameworks & Web Tech**: Hadoop, HDFS, MapReduce, REACT, NGINX, RESTful web services, Spring, Django, Flask  
 **Cloud Platforms**: Google Cloud, AWS  
-**Tools**: IntelliJ, Jenkins, Visual Studio, Selenium, Git, Power BI, MS Visio, JIRA  
+**Tools**: IntelliJ, Jenkins, Visual Studio, Selenium, Git, Power BI, MS Visio, JIRA
 
 ## Experience
 
-### Software Engineer, Apple  
-*Nov 2022 - Present, Bothell, WA*  
-- Ported Universal Catalog Service to GCBD region.  
-- Designed and implemented a retention service for data governance.  
-- Unified Authentication service for HDFS tables storage and metadata.
+### Staff Software Engineer, Apple
+*Nov 2022 - Present, Seattle, WA*
 
-### Software Engineer, Meta  
-*Jun 2021 – Nov 2022*  
-- Implemented Single Owner Additional Profile feature for Messenger.  
-- Developed Community support and Badging systems for Facebook Messenger.  
-- Engineered data pipeline and solution for award granting in Messenger communities.
+Currently, I am part of the Data Platform organization at Apple, focusing on addressing data governance challenges. My work supports all Apple teams by ensuring they can safely ingest, store, and process data. Below are key projects that illustrate my contributions to enhancing our data governance capabilities:
 
-### Software Engineer, Twitter  
-*May 2015 – May 2021*  
-- Developed role aggregation service and observability database indexing.  
+- **Unified Authentication Service for Data Platform:** I worked on a single interface to consolidate metadata and data access across all data platform entities including HDFS, AWS, and Ceph. This service integrates with Spark, Trino, Flink, and Jupyter Notebooks, offering enhanced security and flexibility.
+
+- **Finer Grained Authorization Project:** Led the initiative to provide row-level and column-level authorizations for data, which was crucial for many teams in our organization that need to share large tables without having to split them. This project significantly improved data access security and operational efficiency, enabling precise control over data visibility and manipulation across different teams and applications.
+
+- **Ported Universal Catalog Service to GCBD Region:** Spearheaded the porting of our Metastore service, which also serves as the primary data governance storage, to the GCBD region, specifically within China. This initiative was crucial for expanding our services into this new market, ensuring compliance with local data regulations, and facilitating seamless data integration across borders.
+
+- **Designed and Implemented a Retention Service for Data Governance:** Led an organization-wide initiative to implement data retention policies for HDFS tables and volumes. My role involved designing a comprehensive solution that not only met our data governance requirements but also provided scalable, reliable data management capabilities. This project was pivotal in enhancing our data lifecycle management and ensuring compliance with evolving data protection standards.
+
+### Staff Software Engineer, Meta
+At Meta, I took the lead as a backend developer in the Messenger organization, focusing particularly on Identity and enhancing how users interact within communities. My role involved steering projects that not only improved the functionality of Messenger but also safeguarded its users. Below are some highlights of my contributions:
+*Jun 2021 – Nov 2022, Bellevue, WA*
+
+- **Single Owner Additional Profile:** I led the design and implementation of the Single Owner Additional Profile feature in Messenger, which enables users to create multiple profiles under one account, tailored for diverse community interactions. This feature was designed with robust safeguards to prevent misuse. such as limits on the number of profiles one user can create, thereby preventing spam and undue influence within communities. These measures ensure a safe, engaging, and versatile user experience, enhancing both user engagement and community integrity.
+
+- **Community Support and Badging Systems:** As the lead backend engineer, I designed and implemented a badging system for Facebook Messenger that rewards users for engagement activities like being the first or most active poster. I also developed safeguards to ensure fair and abuse-free badge distribution, significantly boosting community interaction and user satisfaction.
+
+
+### Senior Software Engineer, Twitter
+*May 2015 – May 2021, Seattle, WA*
+
+At Twitter, I started with Development Productivity team, focusing on refining development tools and enhancing operational efficiencies. My contributions spanned from improving software packaging to optimizing data tracing systems. After transitioning to the Observability team, I played a key role in designing and implementing our Time Series Database, subsequently developing various features to enhance its functionality and ensure robust observability across the company’s technical infrastructure.
+- Developed role aggregation service and observability database indexing.
 - Ported Zipkin for in-house datastore usage and designed CI metadata service.
 
-### Software Development Engineer, AWS  
-*March 2013 – May 2015*  
-- Implemented Real-time aggregator and metering services for EBS customers.  
+### Software Development Engineer, AWS
+*March 2013 – May 2015*
+- Implemented Real-time aggregator and metering services for EBS customers.
 - Developed data aggregators and database transition projects.
 
-### Software Development Engineer in Test, Microsoft  
-*May 2012 – April 2013*  
-- Updated deployment testing codes and extended deployment testing tools.  
+### Software Development Engineer, Microsoft
+*May 2012 – April 2013*
+- Updated deployment testing codes and extended deployment testing tools.
 - Designed performance regression diagnostic and SQMLogger tools.
 
-### Senior Engineer, Bharat Electronics Ltd  
-*Aug 2007 - Jul 2011, Ghaziabad, India*  
-- Developed Communication and UI modules for Battlefield Surveillance and Battle Damage Control Systems.  
+### Senior Engineer, Bharat Electronics Ltd
+*Aug 2007 - Jul 2011, Ghaziabad, India*
+- Developed Communication and UI modules for Battlefield Surveillance and Battle Damage Control Systems.
 - Architected Combat Management System focusing on Graphics and Radar interfaces.
 
 ## Education
 
-### M.S. Computer Science  
+### M.S. Computer Science
 *University of Florida, Gainesville*  
-*Aug 2011 – Dec 2012*  
+*Aug 2011 – Dec 2012*
 - GPA: 3.84, Advanced courses in Algorithms, OS Design, Software Architecture.
 
-### B.Tech. Computer Engineering  
+### B.Tech. Computer Engineering
 *College of Technology, GBPUAT*  
-*2004 - 2007*  
+*2004 - 2007*
 
-### Diploma in Computer Engineering  
+### Diploma in Computer Engineering
 *Govt. Polytechnic Dehradun*  
 *2000 - 2003*  
-
-## Projects
-
-- Various contributions to open source projects and proprietary software enhancements in enterprise settings.
-
-- Things you did/do here
-- More things that you do here.
-
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
-
-### Senior Software Architect, Hooli
-
-2010-2016, San Francisco, CA
-
-- This is the job you had before your latest job
-- Did you do anything that wasn't part of your job description, but you excelled at?
-
-**Technologies used:** Tell people about the languages, apps, technologies you used to succeed at this job.
-
-## Awards & Recognition
-
-- Winner TechCrunch Disrupt 2001
-- People Magazine's sexiest man alive at 123 My Address, MyCity, TX
-
-## Projects
-
-**[*Personal Blog*](http://luther.io)** (2021-present)
-
-- Authored a series of articles covering a wide variety of topics and tools related to technology like PHP, WordPress, Ruby, Linux, Docker, and Privacy.
-
-## Education
-
-### Masters in BS, Example University
-
-- 4.0 GPA
-- Deans List
-- Member of xyz club, etc.
-- I didn't really go to college so I don't know what you would put here.
