@@ -3,10 +3,12 @@
 <meta name="keywords" content="Java, Scala, Python, JavaScript">
 <meta name="author" content="Rohit Chauhan">
 <!-- End HTML Meta Tags -->
-<div style="text-align: center;"><h1>Rohit Chauhan</h1></div>
-<div style="text-align: center;"><h6>🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6></div>
 
-##### Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.
+<h1 class="center-text">Rohit Chauhan</h1>
+
+<h6 class="center-text">🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6>
+
+<h6 class="left-text"> Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.</h6>
 
 ## Skills
 
@@ -62,16 +64,19 @@ At Twitter, I started with Development Productivity team, focusing on refining d
 
 ### Software Development Engineer, AWS
 *March 2013 – May 2015*
+
 - Implemented Real-time aggregator and metering services for EBS customers.
 - Developed data aggregators and database transition projects.
 
 ### Software Development Engineer, Microsoft
 *May 2012 – April 2013*
+
 - Updated deployment testing codes and extended deployment testing tools.
 - Designed performance regression diagnostic and SQMLogger tools.
 
 ### Senior Engineer, Bharat Electronics Ltd
 *Aug 2007 - Jul 2011, Ghaziabad, India*
+
 - Developed Communication and UI modules for Battlefield Surveillance and Battle Damage Control Systems.
 - Architected Combat Management System focusing on Graphics and Radar interfaces.
 

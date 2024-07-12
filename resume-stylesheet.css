@@ -549,7 +549,6 @@ h5 {
 h6 {
     color: #777;
     font-size: 14px;
-    text-align: center
 }
 
 p,
@@ -1153,4 +1152,12 @@ sub {
 
 .author {
     display: none
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
 }
