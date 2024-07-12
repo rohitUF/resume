@@ -1161,3 +1161,12 @@ sub {
 .left-text {
     text-align: left;
 }
+
+.contact-link {
+    margin-right: 30px; /* Adjust the space as needed */
+  }
+
+.linkedin-icon {
+    width: 15px;
+    height: 15px;
+}

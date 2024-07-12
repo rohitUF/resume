@@ -2,12 +2,12 @@
 <meta name="description" content="Rohit Chauhan resume">
 <meta name="keywords" content="Java, Scala, Python, JavaScript">
 <meta name="author" content="Rohit Chauhan">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <!-- End HTML Meta Tags -->
 
 <h1 class="center-text">Rohit Chauhan</h1>
 
-<h6 class="center-text">🔗 <a href="https://linkedin.com/in/chauhanr">Linkedin.com/in/chauhanr</a> . 📧 <a href="mailto:rohitchauhan.mail@gmail.com">rohitchauhan.mail@gmail.com</a> . 📞  (352) 871-6277</h6>
-
+<h6 class="center-text"> <i class="fa-brands fa-linkedin-in"></i> <a href="https://linkedin.com/in/chauhanr" class="contact-link">Linkedin.com/in/chauhanr</a> <i class="fa-solid fa-envelope"></i> <a href="mailto:rohitchauhan.mail@gmail.com" class="contact-link">rohitchauhan.mail@gmail.com</a> <i class="fa-solid fa-phone" style="color: #ff2600;"></i> (352) 871-6277</h6>
 <h6 class="left-text"> Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.</h6>
 
 ## Skills
