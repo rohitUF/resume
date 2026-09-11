@@ -9,8 +9,17 @@ title: Rohit Chauhan
 
 ## Experience
 
+### Senior Staff Software Engineer, Google Cloud  
+*Oct 2025 - Present, Bengaluru, India*
+
+- **Cloud SQL Control Plane:** Platform technical lead for the Cloud SQL control plane, setting technical direction across reliability, regionalization, and large-scale operations.
+
+- **Regionalization:** Designed the strategy to regionalize the Cloud SQL control plane, reducing synchronous global dependencies and driving Regional Endpoints (REP) for customers with strict data-residency and regional-isolation requirements.
+
+- **Reliability and Scale:** Led control-plane reliability and fleet-separation efforts to isolate high-scale workloads from core production traffic, reduce blast radius, and improve resilience of lifecycle operations.
+
 ### Staff Software Engineer, Apple  
-*Nov 2022 - Present, Bothell, WA* 
+*Nov 2022 - Oct 2025, Bothell, WA* 
 
 - **Unified Authorization Service for Data Platform:** I worked on a single interface to consolidate metadata and data access across all data platform entities including HDFS, AWS, and Ceph. This service integrates with Spark, Trino, Flink, and Jupyter Notebooks, offering enhanced security and flexibility.
 
