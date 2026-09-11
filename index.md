@@ -7,18 +7,6 @@ title: Rohit Chauhan
 
 [LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
 
-Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.
-
-## Skills
-
-**Core:** Distributed systems · Scala · Data platforms · Data governance · System architecture & design
-
-**Programming Languages**: Java, Scala, Python, JavaScript, C++ Boost, Node.js  
-**Databases**: SQL Server, Cassandra, DynamoDB  
-**Frameworks & Web Tech**: Hadoop, HDFS, MapReduce, REACT, NGINX, RESTful web services, Spring, Django, Flask  
-**Cloud Platforms**: Google Cloud, AWS  
-**Tools**: IntelliJ, Jenkins, Visual Studio, Selenium, Git, Power BI, MS Visio, JIRA
-
 ## Experience
 
 ### Staff Software Engineer, Apple  
