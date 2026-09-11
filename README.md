@@ -13,7 +13,7 @@ Since Sonya's post is nearly five years old, there have been many changes to the
 
 The workflow is pretty simple.
 
-1. Edit the resume.md file.
+1. Edit the index.md file.
 1. Run pandoc to convert the Markdown file to HTML. OR
 1. Run pandoc to convert the Markdown file into a PDF.
 
@@ -42,13 +42,13 @@ A lot has changed since Sonya wrote her blog post and shared her workflow, so he
 ## Markdown to HTML
 
 ```
-pandoc resume.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
+pandoc index.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
 ```
 
 ## Markdown to PDF
 
 ```
-pandoc resume.md -f markdown -t pdf --pdf-engine=wkhtmltopdf -c resume-stylesheet.css -s -o resume.pdf
+pandoc index.md -f markdown -t pdf --pdf-engine=wkhtmltopdf -c resume-stylesheet.css -s -o resume.pdf
 ```
 
 ## HTML to PDF
