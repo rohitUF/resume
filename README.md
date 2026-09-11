@@ -1,66 +1,26 @@
-# Markdown Resume
+# Rohit Chauhan — Resume
 
-This repo allows you to build/maintain your resume in a Markdown file, and then publish it into an HTML or PDF file.
-Technically, you could output it into any file you wanted with pandoc, or wkhtmltopdf, but I wasn't interested in those scenarios so I explore those avenues.
+[View the resume](https://rohituf.github.io/resume/) · [Edit the source](index.md) · [Career history](history.md)
 
-The inspiration for this project came from my need to look for a job, my need to update my resume, and my desire not to have to write something in Google docs, or Microsoft Word, so I scoured the web for newer way to build/maintain a resume, while doing so I ran into this [project by Sonya Sawtelle](https://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html).
+## Source of truth
 
-I modified the CSS for my taste, and noticed that some of the documentation needed to be updated.
+- `index.md`: the current, curated resume. Keep it within two printed pages; prioritize recent and relevant work rather than listing every project.
+- `history.md`: expanded career material and preserved wording. Add details here before pruning them from the resume. This file is public too; confidential notes belong elsewhere.
+- `resume-stylesheet.css`: screen and print styling.
+- `_layouts/default.html`: the minimal GitHub Pages layout.
 
-Since Sonya's post is nearly five years old, there have been many changes to the command line utilities that she used, so I've updated this README to reflect those changes.
+## Everyday workflow
 
-# Workflow
+Edit `index.md` in GitHub or request an edit through the connected assistant. Once GitHub Pages publishes the change, open the resume page and print to PDF from the browser. No local checkout or build script is required for this workflow.
 
-The workflow is pretty simple.
+For the checked print layout, use US Letter at 100% scale, default margins (the stylesheet supplies them), and turn off browser headers and footers. Check the print preview after content changes; pagination may vary across browsers and installed fonts.
 
-1. Edit the index.md file.
-1. Run pandoc to convert the Markdown file to HTML. OR
-1. Run pandoc to convert the Markdown file into a PDF.
+When tailoring the resume, select material from `history.md` rather than creating another competing master copy. New accomplishments earn space by relevance and scope; compress older or redundant material first.
 
-The big difference between Sonya's workflow is that if you want, you can convert from MD -> PDF in one step, rather than two. You can still go from MD -> HTML -> PDF, but if you don't want to have an HTML file, you don't have to.
+## Existing PDF action
 
-I also don't feel like supporting/using Microsoft Word, so I'm not even trying to output to .docx.
+`.github/workflows/create-pdf.yml` retains the earlier Pandoc/wkhtmltopdf build. It is separate from the GitHub Pages/browser-print workflow and is not required to view or print the current resume. `template.html` is retained from that earlier tooling.
 
-# Updated instructions for a Mac .. or 2021
+## Background
 
-A lot has changed since Sonya wrote her blog post and shared her workflow, so here are some updates on how to get started and building/updating your own resume.
-
-# Pre-Requisites
-
-## [Pandoc](https://pandoc.org) a universal document converter
-
-```bash
-    brew install pandoc
-```
-
-## [Wkhtmltopdf](https://wkhtmltopdf.org)
-
-```
-    brew install wkhtmltopdf
-```
-
-## Markdown to HTML
-
-```
-pandoc index.md -f markdown -t html -c resume-stylesheet.css -s -o resume.html
-```
-
-## Markdown to PDF
-
-```
-pandoc index.md -f markdown -t pdf --pdf-engine=wkhtmltopdf -c resume-stylesheet.css -s -o resume.pdf
-```
-
-## HTML to PDF
-
-If you want to convert from HTML to PDF for some reason, you'll need to add a switch to wkhtmltopdf so that it works properly.
-
-```
-wkhtmltopdf --enable-local-file-access resume.html resume.pdf
-```
-
-# TODO
-
-- [x] [github action](https://github.com/pandoc/pandoc-action-example) will run and create the HTML and PDF file automatically.
-- [ ] the Author field in the PDF, it seems to not work when the pdf-engine is set to wkhtmltopdf
-- [ ] make a release or a package?
+The original Markdown/Pandoc workflow was inspired by [Sonya Sawtelle's Markdown resume article](https://sdsawtelle.github.io/blog/output/simple-markdown-resume-with-pandoc-and-wkhtmltopdf.html).

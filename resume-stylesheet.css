@@ -107,8 +107,8 @@ a {
     max-width: none;
     margin: 0;
     padding: 0;
-    font-size: 10.5pt;
-    line-height: 1.35;
+    font-size: 11pt;
+    line-height: 1.4;
   }
 
   h1 {
@@ -128,15 +128,32 @@ a {
 
   h3 {
     margin: 10pt 0 1pt;
-    font-size: 10.5pt;
+    font-size: 11pt;
   }
 
   h3 + p {
     font-size: 9.5pt;
   }
 
+  /* Keep each short role's heading, date, scope, and bullet list together. */
+  h2,
+  h3,
+  h3 + p,
+  h3 + p + p {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
   ul {
     margin: 4pt 0 8pt;
+    break-inside: avoid-page;
+    page-break-inside: avoid;
   }
 
   li {

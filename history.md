@@ -1,0 +1,112 @@
+# Career history
+
+Long-form source material for tailoring `index.md`. The published resume is a selection, not the complete career record. Preserve expanded descriptions here when shortening the resume; append new facts and outcomes as they become available.
+
+This repository is public. Keep confidential project names, internal links, unreleased plans, and non-public operational details outside this repository.
+
+## Current Google scope and resume wording
+
+This supersedes the narrower control-plane-only scope in the archived snapshot below. The role covers the entire Cloud SQL platform; control-plane work is a focus area, not the boundary of the role. The 20× figure describes the fleet-size headroom the work supports, not a claim of 20× growth in the live production fleet.
+
+### Senior Staff Software Engineer, Google Cloud — Cloud SQL
+*Oct 2025 – Present, Bengaluru, India*
+
+Platform technical lead for Cloud SQL, setting technical direction across the service and multiple engineering teams.
+
+- **Regionalization:** Defined the architecture and migration strategy to regionalize the Cloud SQL control plane and drove Regional Endpoints for customers with regional data-residency and isolation requirements. Led the shift away from synchronous global dependencies while preserving existing API semantics and operational behavior.
+
+- **Control Plane Reliability:** Led reliability strategy for the Cloud SQL control plane, including fleet isolation to prevent high-scale and specialized workloads from competing with critical production traffic and to reduce failure blast radius.
+
+- **Control Plane Scale Headroom:** Drove architecture and reliability work to support Cloud SQL fleets 20× larger, identifying bottlenecks across control-plane concurrency, infrastructure quotas, and metadata and storage dependencies.
+
+## Archived resume before compression
+
+Preserved from `index.md` at commit `db4a5a92e3a057f5af01b3a7de9780aa8a40baca`, before the content consolidation. This is historical wording, not another current resume. In particular, use the corrected Google scope above rather than the first Google bullet in this snapshot.
+
+---
+layout: default
+title: Rohit Chauhan
+---
+
+# Rohit Chauhan
+
+[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
+
+## Experience
+
+### Senior Staff Software Engineer, Google Cloud  
+*Oct 2025 - Present, Bengaluru, India*
+
+- **Cloud SQL Control Plane:** Platform technical lead for the Cloud SQL control plane, setting technical direction across reliability, regionalization, and large-scale operations.
+
+- **Regionalization:** Designed the strategy to regionalize the Cloud SQL control plane, reducing synchronous global dependencies and driving Regional Endpoints (REP) for customers with strict data-residency and regional-isolation requirements.
+
+- **Reliability and Scale:** Led control-plane reliability and fleet-separation efforts to isolate high-scale workloads from core production traffic, reduce blast radius, and improve resilience of lifecycle operations.
+
+### Staff Software Engineer, Apple  
+*Nov 2022 - Oct 2025, Bothell, WA* 
+
+- **Unified Authorization Service for Data Platform:** I worked on a single interface to consolidate metadata and data access across all data platform entities including HDFS, AWS, and Ceph. This service integrates with Spark, Trino, Flink, and Jupyter Notebooks, offering enhanced security and flexibility.
+
+- **Finer Grained Authorization Project:** Led the initiative to provide row-level and column-level authorizations for data, which was crucial for many teams in our organization that need to share large tables without having to split them. This project significantly improved data access security and operational efficiency, enabling precise control over data visibility and manipulation across different teams and applications.
+
+- **Ported Universal Catalog Service to GCBD Region:** Spearheaded the porting of our Metastore service, which also serves as the primary data governance storage, to the GCBD region, specifically within China. This initiative was crucial for expanding our services into this new market, ensuring compliance with local data regulations, and facilitating seamless data integration across borders.
+
+- **Designed and Implemented a Retention Service for Data Governance:** Led an organization-wide initiative to implement data retention policies for HDFS tables and volumes. My role involved designing a comprehensive solution that not only met our data governance requirements but also provided scalable, reliable data management capabilities. This project was pivotal in enhancing our data lifecycle management and ensuring compliance with evolving data protection standards.
+
+### Staff Software Engineer, Meta
+*Jun 2021 – Nov 2022, Bellevue, WA*
+
+At Meta, I took the lead as a backend developer in the Messenger organization, focusing particularly on Identity and enhancing how users interact within communities. My role involved steering projects that not only improved the functionality of Messenger but also safeguarded its users. Below are some highlights of my contributions:
+
+- **Single Owner Additional Profile:** I led the design and implementation of the Single Owner Additional Profile feature in Messenger, which enables users to create multiple profiles under one account, tailored for diverse community interactions. This feature was designed with robust safeguards to prevent misuse. such as limits on the number of profiles one user can create, thereby preventing spam and undue influence within communities. These measures ensure a safe, engaging, and versatile user experience, enhancing both user engagement and community integrity.
+
+- **Community Support and Badging Systems:** As the lead backend engineer, I designed and implemented a badging system for Facebook Messenger that rewards users for engagement activities like being the first or most active poster. I also developed safeguards to ensure fair and abuse-free badge distribution, significantly boosting community interaction and user satisfaction.
+
+### Senior Software Engineer, Twitter
+*May 2015 – May 2021, Seattle, WA*
+
+At Twitter, I started with Development Productivity team, focusing on refining development tools and enhancing operational efficiencies. My contributions spanned from improving software packaging to optimizing data tracing systems. After transitioning to the Observability team, I played a key role in designing and implementing our Time Series Database, subsequently developing various features to enhance its functionality and ensure robust observability across the company’s technical infrastructure.
+
+- **Zipkin:** I worked on porting open source zipkin project to in house where we can use it as a distributed tracing tool. I made modifications to make sure that its compatible with our tech stack and added reliability metrics and alerts making it a resilient service.
+
+- **Observability Indexing service:** I designed and implemented the indexing service that keeps metadata details of metric and provide REST endpoints to support rich query language for telemetry.
+
+- **Observability aggregations:** I worked on supporting both role based and time based aggregation of metrics data in TSDB. This was crucial to support long range metric queries as well as protect the database from filling up by only coarse grained metric data after a certain time period.
+
+### Software Development Engineer, AWS
+*March 2013 – May 2015*
+
+- Implemented Real-time aggregator and metering services for EBS customers.
+- Developed data aggregators and database transition projects.
+
+### Software Development Engineer, Microsoft
+*May 2012 – April 2013*
+
+- Updated deployment testing codes and extended deployment testing tools.
+- Designed performance regression diagnostic and SQMLogger tools.
+
+### Senior Engineer, Bharat Electronics Ltd
+*Aug 2007 - Jul 2011, Ghaziabad, India*
+
+- Developed Communication and UI modules for Battlefield Surveillance and Battle Damage Control Systems.
+- Architected Combat Management System focusing on Graphics and Radar interfaces.
+
+## Education
+
+### M.S. Computer Science  
+*University of Florida, Gainesville*  
+*Aug 2011 – Dec 2012*  
+- GPA: 3.84, Advanced courses in Algorithms, OS Design, Software Architecture.
+
+### B.Tech. Computer Engineering  
+*College of Technology, GBPUAT*  
+*2004 - 2007*  
+
+### Diploma in Computer Engineering  
+*Govt. Polytechnic Dehradun*  
+*2000 - 2003*  
+
+## Adding future experience
+
+Append project notes under a dated heading. Capture the problem, personal contribution, key decisions, outcome, and any publicly shareable metrics. Record whether work is designed, in rollout, or completed so later resume edits do not turn goals into claimed results. Retain earlier descriptions when selecting shorter wording for `index.md`.
