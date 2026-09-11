@@ -1,3 +1,8 @@
+---
+layout: default
+title: Rohit Chauhan
+---
+
 # Rohit Chauhan
 
 [LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
@@ -16,7 +21,7 @@ Dedicated software engineer with extensive experience in system architecture, cl
 
 ## Experience
 
-### Software Engineer, Apple  
+### Staff Software Engineer, Apple  
 *Nov 2022 - Present, Bothell, WA* 
 
 - **Unified Authorization Service for Data Platform:** I worked on a single interface to consolidate metadata and data access across all data platform entities including HDFS, AWS, and Ceph. This service integrates with Spark, Trino, Flink, and Jupyter Notebooks, offering enhanced security and flexibility.
