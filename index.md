@@ -5,7 +5,7 @@ title: Rohit Chauhan
 
 # Rohit Chauhan
 
-[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
+[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · Bengaluru, India
 
 ## Experience
 
@@ -44,16 +44,21 @@ Platform technical lead for Cloud SQL, setting technical direction across the se
 - **Distributed Tracing:** Adapted open-source Zipkin to Twitter's technology stack, adding reliability metrics and alerting for production operation.
 
 ### Software Development Engineer, AWS
-*Mar 2013 – May 2015*
+*Mar 2013 – May 2015, Seattle, WA*
 
 - Implemented real-time aggregation and metering services for Amazon EBS.
 
-**Software Development Engineer, Microsoft** · May 2012 – Apr 2013
+### Software Development Engineer, Microsoft
+*May 2012 – Apr 2013, Redmond, WA*
 
 ### Senior Engineer, Bharat Electronics Ltd
 *Aug 2007 – Jul 2011, Ghaziabad, India*
 
 - Developed communication and UI modules for battlefield surveillance and battle damage control systems; architected combat management software focused on graphics and radar interfaces.
+
+## Technical Skills
+
+Java · Scala · Python · Distributed systems · Data platforms · Google Cloud · AWS
 
 ## Education
 

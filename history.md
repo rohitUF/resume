@@ -2,7 +2,7 @@
 
 Long-form source material for tailoring `index.md`. The published resume is a selection, not the complete career record. Preserve expanded descriptions here when shortening the resume; append new facts and outcomes as they become available.
 
-This repository is public. Keep confidential project names, internal links, unreleased plans, and non-public operational details outside this repository.
+This repository is public. Keep personal phone numbers, confidential project names, internal links, unreleased plans, and non-public operational details outside this repository.
 
 ## Current Google scope and resume wording
 
@@ -21,7 +21,7 @@ Platform technical lead for Cloud SQL, setting technical direction across the se
 
 ## Archived resume before compression
 
-Preserved from `index.md` at commit `db4a5a92e3a057f5af01b3a7de9780aa8a40baca`, before the content consolidation. This is historical wording, not another current resume. In particular, use the corrected Google scope above rather than the first Google bullet in this snapshot.
+Preserved from `index.md` at commit `db4a5a92e3a057f5af01b3a7de9780aa8a40baca`, before the content consolidation. Personal phone details have been omitted from this public archive. This is historical wording, not another current resume. In particular, use the corrected Google scope above rather than the first Google bullet in this snapshot.
 
 ---
 layout: default
@@ -30,7 +30,7 @@ title: Rohit Chauhan
 
 # Rohit Chauhan
 
-[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
+[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · Bengaluru, India
 
 ## Experience
 
@@ -106,6 +106,10 @@ At Twitter, I started with Development Productivity team, focusing on refining d
 ### Diploma in Computer Engineering  
 *Govt. Polytechnic Dehradun*  
 *2000 - 2003*  
+
+## Technical skills retained for tailoring
+
+Java, Scala, Python, distributed systems, data platforms, Google Cloud, and AWS were listed in the earlier resume source. The compact resume retains these explicit terms rather than the full historical tools checklist.
 
 ## Adding future experience
 
