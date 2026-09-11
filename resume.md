@@ -1,22 +1,12 @@
-<!-- HTML Meta Tags -->
-<meta name="description" content="Rohit Chauhan resume">
-<meta name="keywords" content="Java, Scala, Python, JavaScript">
-<meta name="author" content="Rohit Chauhan">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<!-- End HTML Meta Tags -->
+# Rohit Chauhan
 
-<h1 class="center-text">Rohit Chauhan</h1>
+[LinkedIn](https://linkedin.com/in/chauhanr) · [rohitchauhan.mail@gmail.com](mailto:rohitchauhan.mail@gmail.com) · +91-7895724307 · Bengaluru, India
 
-<h6 class="center-text"> <i class="fa-brands fa-linkedin-in"></i> <a href="https://linkedin.com/in/chauhanr" class="contact-link">Linkedin.com/in/chauhanr</a> <i class="fa-solid fa-envelope"></i> <a href="mailto:rohitchauhan.mail@gmail.com" class="contact-link">rohitchauhan.mail@gmail.com</a> <i class="fa-solid fa-phone" style="color: #ff2600;"></i> (352) 871-6277</h6>
-<h6 class="left-text"> Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.</h6>
+Dedicated software engineer with extensive experience in system architecture, cloud platforms, and software development. Excels in fast-paced environments, delivering robust solutions that drive business and operational success.
 
 ## Skills
 
-```Distributed systems```
-```Scala```
-```Data platform```
-```Data governance```
-```system architecture & design```
+**Core:** Distributed systems · Scala · Data platforms · Data governance · System architecture & design
 
 **Programming Languages**: Java, Scala, Python, JavaScript, C++ Boost, Node.js  
 **Databases**: SQL Server, Cassandra, DynamoDB  
@@ -45,7 +35,6 @@ At Meta, I took the lead as a backend developer in the Messenger organization, f
 - **Single Owner Additional Profile:** I led the design and implementation of the Single Owner Additional Profile feature in Messenger, which enables users to create multiple profiles under one account, tailored for diverse community interactions. This feature was designed with robust safeguards to prevent misuse. such as limits on the number of profiles one user can create, thereby preventing spam and undue influence within communities. These measures ensure a safe, engaging, and versatile user experience, enhancing both user engagement and community integrity.
 
 - **Community Support and Badging Systems:** As the lead backend engineer, I designed and implemented a badging system for Facebook Messenger that rewards users for engagement activities like being the first or most active poster. I also developed safeguards to ensure fair and abuse-free badge distribution, significantly boosting community interaction and user satisfaction.
-
 
 ### Senior Software Engineer, Twitter
 *May 2015 – May 2021, Seattle, WA*
