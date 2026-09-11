@@ -9,7 +9,7 @@ title: Rohit Chauhan
 
 ## Experience
 
-### Senior Staff Software Engineer, Google Cloud — Cloud SQL
+### Senior Staff Software Engineer, Google Cloud - Cloud SQL
 *Oct 2025 – Present, Bengaluru, India*
 
 Platform technical lead for Cloud SQL, setting technical direction across the service and multiple engineering teams.
